@@ -10,12 +10,13 @@ public class Exerciciodia_08_02_Segundo {
 		int númerodedias, anos, meses, dias;
 		
 		Scanner leia = new Scanner (System.in);
+		
 		System.out.println("Digite sua idade em dias: ");
 		númerodedias = leia.nextInt();
 		
 		anos = númerodedias / 365;
-		meses = (númerodedias - anos * 365) / 30;
-		dias = (númerodedias - anos * 365 - meses*30);
+		meses = (númerodedias % 365) / 30;
+		dias = (númerodedias % 365) %30;
 		
 		System.out.println("Anos:" +anos);
 		System.out.println("Meses" +meses);
