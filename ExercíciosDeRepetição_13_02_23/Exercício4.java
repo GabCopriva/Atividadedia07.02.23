@@ -19,7 +19,6 @@ public class Exercício4 {
 		//Var
 		int idade, identificação, opções, calma = 0, nervosa = 0, agressiva = 0, pCalma = 0, mNervosas = 0, hAgressivos =0, pNervosasMQuarenta = 0, pCalmasMDezoito = 0;
 		
-		
 		System.out.println("\nDigite sua idade: ");
 		idade = leia.nextInt();
 		

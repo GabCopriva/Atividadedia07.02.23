@@ -14,18 +14,20 @@ public class Exercício3 {
 		Scanner leia = new Scanner (System.in);
 		
 		//Var
-		int i, num, somaIdadeMenor=0, somaIdadeMaior=0;
+		int num = 0, somaIdadeMenor=0, somaIdadeMaior=0;
 		int cont =0;
 		
 		//Função
-		System.out.println("\nDigite aqui a idade: ");
-		num = leia.nextInt();
+		
 		
 		//WHILE
 		while (num!=-99) {
+			System.out.println("\nDigite aqui a idade: ");
+			num = leia.nextInt();
+			
 			if (num<=21) {
 				somaIdadeMenor++;
-			} if (num>=21 && num<=50) {
+			} if (num <=50) {
 				somaIdadeMaior++;
 			}
 			}
