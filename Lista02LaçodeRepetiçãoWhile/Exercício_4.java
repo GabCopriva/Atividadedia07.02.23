@@ -34,7 +34,7 @@ public class Exercício_4 {
 			cargo = leia.nextInt();
 			
 			System.out.println("\nVocê gostaria de continuar?: ");
-			System.out.println("\n(S) SIM / (N) NÃO");
+			System.out.println("\nSIM / NÃO");
 			continua = leia.next();
 			
 				if (cargo == 3) {
@@ -55,12 +55,11 @@ public class Exercício_4 {
 						}
 					}
 				}
-				System.out.printf("\nTotal de pessoas desenvolvedoras Backend: %d", pBackend);
-				System.out.printf("\nTotal de mulheres desenvolvedoras Frontend: %d", mFrontend);
-				System.out.printf("\nTotal de homens desenvolvedores Mobile maiores de 40 anos: %d", hMobile);
-				System.out.printf("\nTotal de mulheres desenvolvedoras FullStack menores de 30 anos: %d", mFulltrinta);
-
-		}
+			}
+		System.out.printf("\nTotal de pessoas desenvolvedoras Backend: %d", pBackend);
+		System.out.printf("\nTotal de mulheres desenvolvedoras Frontend: %d", mFrontend);
+		System.out.printf("\nTotal de homens desenvolvedores Mobile maiores de 40 anos: %d", hMobile);
+		System.out.printf("\nTotal de mulheres desenvolvedoras FullStack menores de 30 anos: %d", mFulltrinta);
 
 	}
 
