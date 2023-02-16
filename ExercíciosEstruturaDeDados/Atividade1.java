@@ -1,8 +1,10 @@
 package ExercíciosEstruturaDeDados;
 
 import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
-import java.util.Stack;
+
 
 public class Atividade1 {
 
@@ -13,7 +15,7 @@ public class Atividade1 {
 		Scanner leia = new Scanner (System.in);
 		
 		//Stack
-		Stack<String> fila = new Stack<String>();
+		Queue<String> fila = new LinkedList<String>();
 		
 		//Var
 		int opcao;
@@ -47,7 +49,7 @@ public class Atividade1 {
 				leia.skip("\\R?");
 				titulo = leia.nextLine();
 				
-				fila.push(titulo);
+				fila.add(titulo);
 				
 				System.out.println("\nCliente adicionado!");
 				
@@ -68,7 +70,7 @@ public class Atividade1 {
 				if (fila.isEmpty())
 					System.out.println("\nA fila está vazia!");
 				else
-					fila.pop();
+					fila.isEmpty();
 				
 				System.out.println("\nCliente retirado da fila");
 									
