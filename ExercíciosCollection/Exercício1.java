@@ -1,10 +1,9 @@
 package ExercíciosCollection;
 
 import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Scanner;
-import java.util.Set;
 
 public class Exercício1 {
 
@@ -17,30 +16,31 @@ public class Exercício1 {
 		*/
 		
 		//Scanner
-		Scanner leia = new Scanner  (System.in);
-		
-		String [] cores = {"amarelo","azul","branco","laranja","verde"};
+		Scanner leia = new Scanner  (System.in);	
 		
 		//Array
 		ArrayList<String> color = new ArrayList<String>();
 		
+		color.add("amarelo");
+		color.add("azul");
+		color.add("branco");
+		color.add("laranja");
+		color.add("verde");
+	
 		
+		System.out.println(color);
 		//For
-		for (int i = 0; i < 5; i++) {
-			System.out.println("\nDigite uma cor: ");
-			String cor = leia.next();
+		//for (int i = 0; i < 5; i++) {
+			//System.out.println("\nDigite uma cor: ");
+			//String cor1 = leia.next();
 			
-			System.out.println("\nA cor " +cor+ " foi adiocionada.");
 			
-	   //Add
-			color.add(cor);
-					
+			
+	   				
 			
 	   //Lista cores
-			System.out.println("\nListar todas as cores: ");
+			//System.out.println("\nListar todas as cores: ");
 			
-	  //For?
-			//for (String listaCores : cores ) {
 	 
 	 
 			
